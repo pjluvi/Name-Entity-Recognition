@@ -47,7 +47,7 @@ jobs:
 
       - run:
           name: push to private repository
-          command: docker build -t asia-south1-docker.pkg.dev/inner-legacy-432818-n9/ner-bert/ner-bert:latest
+          command: docker push -t asia-south1-docker.pkg.dev/inner-legacy-432818-n9/ner-bert/ner-bert:latest
 
   continuous-deployment:
     machine: true
